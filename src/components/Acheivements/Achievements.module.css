@@ -1,0 +1,82 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 50px;
+  margin-top: 10%;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: var(--color-text);
+  font-family: var(--font-roboto);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    color: var(--color-primary);
+
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.certifications,
+.achievements {
+  flex: 1;
+  min-width: 300px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, var(--color-secondary) 0%, rgba(19, 42, 83, 0.6) 100%);
+  padding: 15px;
+  border-radius: 10px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.item:hover {
+  background: linear-gradient(90deg, var(--color-primary) 0%, rgba(87, 108, 188, 0.6) 100%);
+  transform: translateY(-5px);
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+}

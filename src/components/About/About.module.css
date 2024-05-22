@@ -1,0 +1,139 @@
+@import "../../vars.css";
+
+
+.container {
+  position: relative;
+  background: linear-gradient(135deg, rgba(12, 12, 12, 0.8), rgba(34, 34, 34, 0.8));
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 10%;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.title {
+  color: var(--color-primary);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;  
+  animation: slideInFromLeft 1s ease-in-out;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: slideInFromRight 1s ease-in-out;
+}
+
+.aboutImage {
+  width: 35%;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  animation: float 3s ease-in-out infinite;
+}
+
+.aboutText {
+  color: var(--color-text);
+  font-size: 20px;
+  line-height: 1.6;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background: transparent;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: none;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    width: 100%;
+    margin-bottom: 20px;
+    animation: floatMobile 3s ease-in-out infinite;
+  }
+
+  .aboutText {
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .aboutText {
+    font-size: 16px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes floatMobile {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

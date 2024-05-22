@@ -1,0 +1,107 @@
+@import "../../vars.css";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 10%; 
+  z-index: 1000;
+  box-shadow: 0 10px 10px rgba(255, 255, 255, 0.3), 0 0 8px rgba(255, 255, 255, 0.3); /* White shadow effect */
+  transition: background-color 0.3s, padding 0.3s, box-shadow 0.3s; 
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.menuBtn {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menuItems {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.menuItems a {
+  font-size: 20px;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.menuItems a:hover {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); /* White shadow effect on hover */
+  transform: scale(1.1); /* Slight scaling on hover */
+}
+
+.menuItems a.active {
+  font-weight: 700;
+  border-bottom: 2px solid var(--color-highlight); /* Highlight active link */
+}
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 5%; /* Increased padding for smaller screens */
+  }
+
+  .menu {
+    position: absolute;
+    top: 80px; /* Adjusted to be below the fixed navbar */
+    right: 5%;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 999;
+  }
+
+  .menuBtn {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: rgb(25, 55, 109);
+    background: linear-gradient(
+      0deg,
+      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 1) 100%
+    );
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .menuOpen {
+    display: flex;
+    animation: fadeIn 0.3s ease-in-out; /* Add animation */
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

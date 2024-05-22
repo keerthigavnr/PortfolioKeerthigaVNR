@@ -1,0 +1,32 @@
+[
+  
+  {
+    "title": "Examiner management for faculties",
+    "imageSrc": "projects/examiner_management.png",
+    "description": "Developed a responsive web application for assigning internal and external faculties for university exams, handling admin and personalized user pages.",
+    "skills": ["MERN", "MongoDB", "Bootstrap", "React.js", "Node.js", "Express.js"],
+    "source": ""
+  },
+  {
+    "title": "Amazon Clone",
+    "imageSrc": "projects/amazon_clone.png",
+    "description": "Replicated the Amazon e-commerce site using HTML and CSS.",
+    "skills": ["HTML", "CSS"],
+    "source": "https://keerthigaamazonclone.netlify.app/"
+  },
+ 
+  {
+    "title": "Python Web Scraping using BeautifulSoup",
+    "imageSrc": "projects/web_scraping.jpg",
+    "description": "Utilized Python with BeautifulSoup and Requests libraries to extract job listings from websites, allowing users to filter out job postings based on specified skills.",
+    "skills": ["Python", "BeautifulSoup", "Requests"],
+    "source": "https://github.com/keerthigavnr/web_scraping_project"
+  },
+  {
+    "title": "AI Domestic Violence Support System for Intel AI Hackathon",
+    "imageSrc": "projects/domestic_violence_support.png",
+    "description": "Developed a website for domestic violence support, integrating NLP for input processing and providing knowledge to victims.",
+    "skills": ["Flask", "Bootstrap", "Scikit-Learn", "PCA", "Catboost Classifier", "Logistic Regression", "Intel OneAPI Toolkit"],
+    "source": "https://github.com/keerthigavnr/Intel-AI-oneAPI-Hackathon"
+  }
+]
