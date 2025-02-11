@@ -11,7 +11,7 @@ export const Achievements = () => {
           <ul className={styles.list}>
             <li className={styles.item}>AI Lead for Google Developer Students Club at college</li>
             <li className={styles.item}>Senior Member of the ADAS Programming Club</li>
-            <li className={styles.item}>Founded a C Programming Community for our class</li>
+  
             <li className={styles.item}>Participant in the Intel OneAPI 3-day Hackathon</li>
           </ul>
         </div>
