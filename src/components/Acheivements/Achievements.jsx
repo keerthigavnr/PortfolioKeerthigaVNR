@@ -11,18 +11,16 @@ export const Achievements = () => {
           <ul className={styles.list}>
             <li className={styles.item}>AI Lead for Google Developer Students Club at college</li>
             <li className={styles.item}>Senior Member of the ADAS Programming Club</li>
-  
-            <li className={styles.item}>Participant in the Intel OneAPI 3-day Hackathon</li>
+            <li className={styles.item}>Participant in the Intel One API 3-day Hackathon</li>
+            <li className={styles.item}>School pupil leader at Sitalakshmi Girls Higher Secondary School</li>
           </ul>
         </div>
         
         <div className={styles.certifications}>
           <h3 className={styles.subtitle}>Certifications</h3>
           <ul className={styles.list}>
-            <li className={styles.item}>Applied Data Science Capstone Project by IBM - Coursera</li>
+            <li className={styles.item}>Java Full Stack Development Training, Wipro</li>
             <li className={styles.item}>Machine Learning using Python, IBM - Coursera</li>
-            <li className={styles.item}>Network Essentials, Cisco</li>
-            <li className={styles.item}>Industrial Training in Data Science, DevTown</li>
           </ul>
         </div>
       </div>

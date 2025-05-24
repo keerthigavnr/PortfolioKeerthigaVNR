@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm V.N.R. Keerthiga</h1>
         <p className={styles.description}>
-          I'm a MERN stack developer with experience in building dynamic and responsive web applications. I have a passion for coding and love to tackle new challenges. Check out my work below!
+          I'm a Computer Science Engineer with experience in full-stack development, currently working as a Fullstack Developer Intern at Newrta Solutions. I specialize in Angular, Spring Boot, and modern web technologies. Check out my work below!
         </p>
         <a href="#projects" className={styles.viewWorkBtn}>
           View My Work
