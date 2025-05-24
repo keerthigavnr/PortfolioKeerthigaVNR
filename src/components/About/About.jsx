@@ -9,13 +9,13 @@ export const About = () => {
       <div className={styles.content}>
         <div className={styles.aboutText}>
           <p>
-            Hello! I'm V.N.R. Keerthiga, a passionate MERN stack developer currently pursuing a B.E. in Computer Science and Engineering at Anna University. I have a strong foundation in web development and a keen interest in data analysis, machine learning, and AI.
+            Hello! I'm V.N.R. Keerthiga, a Computer Science Engineer with experience developing websites and applications. I'm currently working as a Fullstack Developer Intern at Newrta Solutions Private Limited, where I'm gaining hands-on experience with Angular and Spring Boot.
           </p>
           <p>
-          In addition to my technical skills, I have actively participated in hackathons, where I enjoyed tackling complex problems and coming up with innovative solutions. I was also the AI lead in the Google Students Developer Club at my university and a member of our college's programming club.   </p>
+            My technical expertise includes frontend development with Angular and React, backend development with Spring Boot and Node.js, and database management using PostgreSQL, MySQL, and MongoDB. I'm proficient in cloud services like Microsoft Azure and version control using Git and GitHub.
+          </p>
           <p>
-
-            Looking forward, I aspire to create innovative solutions and contribute to projects. I'm always eager to learn new technologies and collaborate with like-minded individuals.
+            I'm passionate about creating efficient, user-friendly applications and am looking for a full-time position where I can apply my skills and continue growing as a developer.
           </p>
         </div>
       </div>

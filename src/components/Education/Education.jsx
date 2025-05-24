@@ -9,18 +9,18 @@ export const Education = () => {
         <div className={styles.card}>
           <h3>Anna University Regional Campus, Madurai</h3>
           <p>B.E. in Computer Science and Engineering</p>
-          <p>CGPA: 8.2</p>
-          <p>2021 - Present (Batch 2025)</p>
+          <p>CGPA: 8.1</p>
+          <p>2022 - 2025</p>
         </div>
         <div className={styles.card}>
-          <h3>Sitalakshmi Girls Higher Secondary School, Tamil Nadu</h3>
-          <p>XII (Higher Secondary Education)</p>
-          <p>Percentage: 93.4%</p>
-          <p>2020 - 2021</p>
+          <h3>Sitalakshmi Girls Higher Secondary School, Madurai</h3>
+          <p>HSC (Higher Secondary Education)</p>
+          <p>Percentage: 93.3%</p>
+          <p>2019 - 2022</p>
         </div>
         <div className={styles.card}>
-          <h3>Sitalakshmi Girls Higher Secondary School, Tamil Nadu</h3>
-          <p>Secondary Education</p>
+          <h3>Sitalakshmi Girls Higher Secondary School, Madurai</h3>
+          <p>SSLC (Secondary Education)</p>
           <p>Percentage: 94.4%</p>
           <p>2018 - 2019</p>
         </div>

@@ -1,11 +1,17 @@
 [
-  
   {
-    "title": "Examiner management for faculties",
+    "title": "Examiner Management System",
     "imageSrc": "projects/examiner_management.png",
-    "description": "Developed a responsive web application for assigning internal and external faculties for university exams, handling admin and personalized user pages.",
-    "skills": ["MERN", "MongoDB", "Bootstrap", "React.js", "Node.js", "Express.js"],
-    "source": ""
+    "description": "Built a role-based web application enabling faculty registration and admin-controlled exam assignments. Developed admin dashboard for creating and assigning practical/theory exams to faculty members. Created responsive UI using React and RESTful APIs with Express.js/Node.js backend.",
+    "skills": ["React", "Node.js", "Express", "MongoDB", "JWT", "REST API"],
+    "source": "https://github.com/keerthigavnr/examiner-management-system"
+  },
+  {
+    "title": "Leave Management System",
+    "imageSrc": "projects/leavemanagement.png",
+    "description": "Built full-stack application for employee leave management with date range selection and reason tracking. Developed admin panel for leave approval/rejection with real-time status updates. Implemented leave balance calculation and leave history tracking features.",
+    "skills": ["Angular", "Spring Boot", "PostgreSQL", "Bootstrap", "REST API"],
+    "source": "https://github.com/keerthigavnr/leave-management-system"
   },
   {
     "title": "Amazon Clone",
