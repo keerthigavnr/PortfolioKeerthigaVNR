@@ -110,6 +110,13 @@
   z-index: 0;
 }
 
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
 /* Media query for smaller screens */
 @media screen and (max-width: 830px) {
   .container {
@@ -148,5 +155,13 @@
   .viewWorkBtn {
     font-size: 16px; /* Adjust button font size for very small screens */
     padding: 10px 20px; /* Adjust button padding for very small screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .buttonContainer {
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
   }
 }

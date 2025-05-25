@@ -7,6 +7,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
 import { Education } from "./components/Education/Education";
 import { Achievements } from "./components/Acheivements/Achievements";
+import { Experience } from "./components/Experience/Experience";
 
 function App() {
   return (
@@ -14,10 +15,11 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Experience />
       <Skills />
-      <Education/>
+      <Education />
       <Projects />
-      <Achievements/>
+      <Achievements />
       <Contact />
     </div>
   );
