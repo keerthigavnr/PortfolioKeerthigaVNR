@@ -1,0 +1,25 @@
+.downloadButton {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: var(--transition-normal);
+  text-decoration: none;
+}
+
+.downloadButton:hover {
+  color: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+.downloadButton svg {
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .downloadButton svg {
+    width: 28px;
+    height: 28px;
+  }
+} 
